@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.profile_box{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px
+}
+.profile_img{
+    margin-top: -600px;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.my_name{
+    display: flex;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+    justify-content: center;
+}
+hr{
+    border: 1px solid black;
+    width: 80px;
+}
+.my_info{
+    display: flex;
+    width: 100%;
+    align-items: row;
+}
+.profile_left{
+    width: 50%;
+}
+.profile_right{
+    width: 50%;
+}
