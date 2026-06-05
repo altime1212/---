@@ -12,7 +12,7 @@ body{
     width: 800px;
     height: 600px;
     background-color: white;
-    border-radius: 10px
+    border-radius: 10px;
 }
 .profile_img{
     margin-top: -600px;
@@ -25,7 +25,7 @@ body{
     display: flex;
     font-size: 40px;
     font-weight: 600;
-    margin-top: 100px;
+    margin-top: 80px;
     justify-content: center;
 }
 hr{
@@ -35,11 +35,39 @@ hr{
 .my_info{
     display: flex;
     width: 100%;
-    align-items: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: -23px;
 }
-.profile_left{
-    width: 50%;
+.my_info li{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
 }
-.profile_right{
+.profile_top_left{
     width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.profile_top_right{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.profile_bottom_left{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+/* .profile_bottom_right{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+} */
+.etc_2{
+    padding: 40px;
+}
+.profile_bottom_left>ul h2{
+    margin-top: -55px;
+    margin-bottom: 0px;
 }
