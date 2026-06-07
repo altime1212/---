@@ -13,9 +13,10 @@ body{
     height: 600px;
     background-color: white;
     border-radius: 10px;
+    margin-top: 100px;
 }
 .profile_img{
-    margin-top: -600px;
+    margin-top: -450px;
     position: absolute;
     width: 150px;
     height: 150px;
@@ -25,7 +26,7 @@ body{
     display: flex;
     font-size: 40px;
     font-weight: 600;
-    margin-top: 80px;
+    margin-top: 100px;
     justify-content: center;
 }
 hr{
@@ -37,7 +38,7 @@ hr{
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: -23px;
+    margin-top: -25px;
 }
 .my_info li{
     list-style-type: none;
@@ -57,7 +58,7 @@ hr{
 .profile_bottom_left{
     width: 50%;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 5px;
 }
 /* .profile_bottom_right{
     width: 50%;
@@ -68,6 +69,6 @@ hr{
     padding: 40px;
 }
 .profile_bottom_left>ul h2{
-    margin-top: -55px;
+    margin-top: -45px;
     margin-bottom: 0px;
 }
