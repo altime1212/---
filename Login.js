@@ -6,6 +6,6 @@ function login(){
     if(id===correctId&&pw===correctPw){
         window.location.href="Mypage.html";
     }else{
-        document.getElementById("error").innerText="아이디 또는 비밀번호가 틀렸습니다.";
+        document.getElementById("error").innerText="Invalid username or password";
     }
 }
